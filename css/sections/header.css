@@ -1,28 +1,46 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 .header__nav {
   display: flex;
   overflow: hidden;
 }
 .header__logo {
-  display: flex;
   flex: 1;
-  /* position: relative; */
+  display: flex;
+  position: relative;
+  padding: 20px;
 }
 .header__logo-overlay {
+  /* flex: 1; */
+  position: absolute;
+  inset: 0;
+  width: 45%;
   background-color: var(--primary-color);
+  z-index: -1;
 }
 
 .header__logo h4 {
-  padding: 2.5rem;
-  flex: 1;
-  display: flex;
+  padding-left: 50px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0.8;
+  text-transform: uppercase;
 }
 .header__menu,
 .header__menu-mobile {
+  flex: 1;
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 25px;
+  justify-content: flex-end;
+  gap: 55px;
+  text-transform: uppercase;
+  /* margin: 0 1rem; */
+}
+.header__menu-mobile {
+  display: none;
+  position: relative;
+  padding: 20px;
 }
