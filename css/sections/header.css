@@ -12,7 +12,6 @@
   padding: 20px;
 }
 .header__logo-overlay {
-  /* flex: 1; */
   position: absolute;
   inset: 0;
   width: 45%;
@@ -43,4 +42,10 @@
   display: none;
   position: relative;
   padding: 20px;
+}
+
+.header__menu li img {
+  background-size: cover;
+  height: 24px;
+  width: 24px;
 }
