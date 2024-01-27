@@ -1,6 +1,7 @@
 @import url("sections/header.css");
 @import url("sections/hero.css");
 @import url("sections/about-us.css");
+@import url("sections/menu.css");
 * {
   margin: 0;
   padding: 0;
