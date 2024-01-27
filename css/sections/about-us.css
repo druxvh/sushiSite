@@ -52,22 +52,24 @@
   margin-bottom: 6px;
 }
 .about-us__content {
-  flex: 1.13;
+  flex: 1.2;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem;
   gap: 32px;
 }
 
 .sushi-subtitle {
+  margin: 0 1rem;
   font-size: 1.125rem;
   font-weight: 500;
 }
 .sushi-title {
+  margin: 0 1rem;
   font-size: 2.5rem;
   line-height: 45px;
 }
 .sushi-description {
+  margin: 0 1rem;
   font-weight: 400;
 }
