@@ -1,13 +1,12 @@
-* {
+/* * {
   outline: 1px dashed red;
-}
+} */
 .popular-foods {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-
   padding: 1rem;
   background-color: var(--primary-color);
 }
@@ -76,22 +75,25 @@
 .popular-foods__catalogue {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 100px;
+  align-items: end;
 
   margin-top: 2rem;
 }
 .popular-foods__card {
   min-width: 250px;
-
+  height: 350px;
   padding: 2rem 2.5rem;
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
+  cursor: pointer;
 }
 .popular-foods__card-image {
   object-fit: contain;
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 175px;
 }
 .popular-foods__card-title {
   color: #fff;
@@ -118,7 +120,16 @@
 
 .active-card {
   min-width: 300px;
+  height: 370px;
   background-color: #fff;
   margin-bottom: 1rem;
-  overflow: visible;
+}
+.active-card h4,
+.active-card p {
+  color: #212121;
+}
+.active-card .popular-foods__card-image {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
 }
