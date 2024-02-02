@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sushi Sauce</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="/assets/sushi-1.png" />
     <script src="/js/script.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   </head>
   <body>
     <header>
       <nav class="header__nav">
         <div class="header__logo">
-          <h4 data-aos="fade-up">Sushi & Sauce</h4>
+          <h4 data-aos="fade-down">Sushi & Sauce</h4>
           <div class="header__logo-overlay"></div>
         </div>
         <ul class="header__menu" data-aos="fade-down">
@@ -22,24 +24,24 @@
           <li><a href="about">about us</a></li>
           <li><img src="assets/search.svg" alt="search" /></li>
         </ul>
-        <ul class="header__menu-mobile">
+        <ul class="header__menu-mobile" data-aos="fade-down">
           <li><img src="assets/menu.svg" alt="Menu" /></li>
         </ul>
       </nav>
     </header>
     <section class="hero">
       <div class="hero-image">
-        <img src="assets/sushi-1.png" alt="sushi" />
+        <img src="assets/sushi-1.png" alt="sushi" data-aos="fade-right" />
         <div class="hero-image__overlay"></div>
       </div>
       <div class="hero-content">
-        <div class="hero-content__info">
+        <div class="hero-content__info" data-aos="fade-down">
           <h1>Feel the taste of Japanese food</h1>
           <p>
             Feel the taste of the most popular Japanese food from anywhere and
             anytime.
           </p>
-          <div class="hero-content__buttons">
+          <div class="hero-content__buttons" data-aos="fade-up">
             <button class="hero-content__order-button">Order Now</button>
             <button class="hero-content__play-button">
               <img src="assets/play-circle.svg" alt="play" />How to order?
@@ -47,11 +49,11 @@
           </div>
         </div>
         <div class="hero-content__testimonial">
-          <div class="hero-content__customer">
+          <div class="hero-content__customer" data-aos="fade-up">
             <h4>24 <span>k+</span></h4>
             <p>Happy Customers</p>
           </div>
-          <div class="hero-content__review">
+          <div class="hero-content__review" data-aos="fade-up">
             <img src="assets/user.png" alt="user" />
             <p>"This is the best japanese food I ever had!!!"</p>
           </div>
@@ -61,14 +63,14 @@
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-1">
-          <img src="assets/sushi-3.png" alt="sushi" />
+          <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
         </div>
         <button class="about-us__button">
           Learn More
           <img src="assets/arrow-up-right.svg" alt="arrow up right" />
         </button>
         <div class="about-us__image-2">
-          <img src="assets/sushi-2.png" alt="sushi" />
+          <img src="assets/sushi-2.png" alt="sushi" data-aos="fade-right" />
         </div>
       </div>
       <div class="about-us__content">
@@ -84,7 +86,7 @@
       </div>
     </section>
     <section class="popular-foods" id="menu">
-      <h2 class="popular-foods__title">Popular Foods</h2>
+      <h2 class="popular-foods__title" data-aos="flip-up">Popular Foods</h2>
       <div class="popular-foods__filter">
         <button class="popular-foods__filter-btn active">All</button>
         <button class="popular-foods__filter-btn">
@@ -104,7 +106,7 @@
           Danggo
         </button>
       </div>
-      <div class="popular-foods__catalogue">
+      <div class="popular-foods__catalogue" data-aos="fade-up">
         <article class="popular-foods__card">
           <img
             class="popular-foods__card-image"
