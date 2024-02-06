@@ -59,17 +59,7 @@
   gap: 32px;
 }
 
-.sushi-subtitle {
+.about-us__content p,
+.about-us__content h3 {
   margin: 0 1rem;
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-.sushi-title {
-  margin: 0 1rem;
-  font-size: 2.5rem;
-  line-height: 45px;
-}
-.sushi-description {
-  margin: 0 1rem;
-  font-weight: 400;
 }

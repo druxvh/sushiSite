@@ -1,6 +1,3 @@
-* {
-  outline: 1px dashed red;
-}
 .popular-foods {
   display: flex;
   flex-direction: column;

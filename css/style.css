@@ -2,6 +2,7 @@
 @import url("sections/hero.css");
 @import url("sections/about-us.css");
 @import url("sections/menu.css");
+@import url("sections/trending.css");
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +36,18 @@ button {
 .active {
   background-color: #fff;
   font-weight: 600;
+}
+
+.sushi-subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.sushi-title {
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+.sushi-description {
+  font-weight: 400;
 }
 
 .flex-center {
