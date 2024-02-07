@@ -9,11 +9,29 @@
   flex-direction: column;
   overflow: hidden;
 }
+.trending-sushi,
+.trending-drinks {
+  flex: 1;
+  display: flex;
+  min-height: 550px;
+  overflow: hidden;
+}
+.trending__content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  /* margin: 0 1rem; */
+
+  padding: 1rem;
+}
 .trending__list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   gap: 20px;
+  margin-top: 20px;
 }
 .trending__list li {
   display: flex;
@@ -23,7 +41,6 @@
   min-width: 210px;
 }
 .trending__list p {
-  flex: 1;
   font-size: 1.225rem;
 
   font-weight: 500;
@@ -45,7 +62,8 @@
 }
 .trending__image {
   flex: 1;
-  padding: 2rem 4rem;
+  /* padding: 2rem 4rem; */
+  padding: 1rem;
   background-color: #fff;
   position: relative;
 }
@@ -67,14 +85,48 @@
   left: -2.5px;
   top: 12%;
 }
+.trending__arrow-right {
+  right: -2.5px;
+  bottom: 12%;
+}
 
 .trending__arrow-left img,
 .trending__arrow-bottom img {
   width: auto;
   height: 100%;
 }
+.trending__arrow-top img,
+.trending__arrow-right img {
+  width: 100%;
+  height: auto;
+}
 
+.trending__arrow-top {
+  top: -10.5px;
+  left: 12%;
+}
 .trending__arrow-bottom {
   right: 12%;
   bottom: -6.5px;
+}
+
+.trending__discover {
+  position: absolute;
+  z-index: 1;
+  top: 44%;
+  left: 44%;
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.trending__discover p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
