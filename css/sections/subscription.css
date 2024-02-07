@@ -1,0 +1,11 @@
+* {
+  outline: 1px solid red;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  background-color: var(--primary-color);
+  min-height: 550px;
+}
