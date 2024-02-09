@@ -2,19 +2,21 @@
   display: flex;
   overflow: hidden;
   min-height: 74px;
+  position: relative;
 }
 .header__logo {
   flex: 1;
   display: flex;
-
+  z-index: 1;
   position: relative;
 }
+
 .header__logo-overlay {
   position: absolute;
   inset: 0;
 
   width: 100%;
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   z-index: -1;
 }
 
@@ -47,6 +49,7 @@
   margin: 0 1rem;
   font-weight: 700;
   text-transform: uppercase;
+  cursor: pointer;
   text-wrap: nowrap;
 }
 

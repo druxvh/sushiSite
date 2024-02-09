@@ -6,6 +6,8 @@
   overflow: hidden;
   padding: 20px 40px;
   flex-wrap: wrap;
+  background-color: #fff;
+  gap: 80px;
 }
 .footer__logo {
   font-size: 24px;
