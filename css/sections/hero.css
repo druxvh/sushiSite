@@ -48,12 +48,13 @@
   font-size: 1.225rem;
 }
 .hero-content__buttons {
-  margin-top: 1rem;
+  margin-top: 20px;
   display: flex;
   gap: 2rem;
 }
 .hero-content__order-button {
-  padding: 0.5rem 1.75rem;
+  /* padding: 0.5rem 1.75rem; */
+  padding: 1.1rem 1.5rem;
   border-radius: 30px;
   border: none;
   color: #fff;
@@ -68,13 +69,14 @@
   align-items: center;
   background-color: transparent;
   gap: 1rem;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  font-weight: 500;
   cursor: pointer;
 }
 .hero-content__play-button img {
   object-fit: contain;
-  height: 40px;
-  width: 40px;
+  height: 55px;
+  width: 55px;
 }
 .hero-content__testimonial {
   flex: 1;

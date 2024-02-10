@@ -75,13 +75,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
+  gap: 75px;
   align-items: end;
 
   margin-top: 2rem;
 }
 .popular-foods__card {
-  min-width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 300px;
   height: 350px;
   padding: 2rem 2.5rem;
   background-color: rgba(255, 255, 255, 0.05);
@@ -102,6 +106,7 @@
 }
 .popular-foods__card-details {
   margin-top: 18px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: end;
