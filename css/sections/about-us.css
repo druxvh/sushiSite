@@ -19,15 +19,17 @@
   background-position: center;
 }
 .about-us__image-1 {
-  border-bottom: 8px solid var(--color-creamson);
+  border-bottom: 3px solid var(--color-creamson);
 }
 .about-us__image-1 img {
   width: 240px;
   height: 210px;
+  object-fit: contain;
 }
 .about-us__image-2 img {
   width: 240px;
   height: 160px;
+  object-fit: contain;
 }
 .about-us__button {
   background-color: var(--secondary-color);

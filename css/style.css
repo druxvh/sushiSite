@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 body {
   max-width: 1280px;
@@ -70,12 +70,34 @@ button {
 }
 
 @media (max-width: 1100px) {
+  /* Header Section */
   .header__menu {
     display: none;
   }
   .header__menu-mobile {
     display: flex;
   }
+  /* Popular Section */
+  .popular-foods__catalogue {
+    flex-direction: column;
+  }
+  .popular-foods__card {
+    min-width: 400px;
+    height: 450px;
+    gap: 30px;
+  }
+  .popular-foods__card-image {
+    height: 260px;
+    width: 260px;
+  }
+  .active-card {
+    margin: 0;
+  }
+  /* Trending Section */
+  .trending__arrow {
+    display: none;
+  }
+  /* Footer Section */
   .footer {
     display: flex;
     align-items: start;
@@ -84,5 +106,105 @@ button {
   .footer__nav {
     display: flex;
     flex-direction: column;
+    gap: 25px;
+  }
+  .footer__social {
+    gap: 25px;
+  }
+}
+@media (max-width: 800px) {
+  /* Header Section */
+  .header__logo h4 {
+    font-size: 1.255rem;
+  }
+  /* Hero Section */
+  .hero-content__info h1 {
+    font-size: 3.5rem;
+    line-height: 60px;
+  }
+  .hero-content__info p {
+    font-size: 1.15rem;
+  }
+  .hero-content__order-button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+  }
+  .hero-content__play-button {
+    font-size: 1.1rem;
+  }
+  .hero-content__play-button img {
+    height: 45px;
+    width: 45px;
+  }
+  .hero-content__customer h4 {
+    font-size: 2.5rem;
+  }
+  .hero-content__customer p {
+    font-size: 0.75rem;
+  }
+  .hero-content__review img {
+    height: 55px;
+    width: 55px;
+  }
+  .hero-content__review p {
+    font-size: 0.85rem;
+  }
+
+  /* About Us Section */
+  .sushi-subtitle {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .sushi-title {
+    font-size: 2.25rem;
+    line-height: 45px;
+  }
+  .sushi-description {
+    font-size: 1rem;
+  }
+  .about-us__button {
+    padding: 1rem;
+    font-size: 1.15rem;
+  }
+  .about-us__button img {
+    width: 12px;
+    height: 12px;
+    margin-bottom: 6px;
+  }
+  /* Menu Section */
+  .popular-foods__filter-btn {
+    gap: 5px;
+    padding: 0.7rem 1.25rem;
+    border-radius: 50px;
+    font-size: 1.125rem;
+  }
+  .popular-foods__filter-btn img {
+    width: 35px;
+    height: 35px;
+  }
+  /* Trending Section */
+  .trending__list p {
+    font-size: 1.15rem;
+  }
+  .trending__discover {
+    top: 45%;
+    left: 45%;
+    height: 100px;
+    width: 100px;
+  }
+  .trending__discover p {
+    font-size: 1rem;
+  }
+  .trending__list {
+    gap: 14px;
+    margin-top: 15px;
+  }
+  /* Subscription Section */
+  .subscription h2 {
+    font-size: 70px;
+    line-height: 90px;
+  }
+  .subscription p {
+    font-size: 20px;
   }
 }
