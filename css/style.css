@@ -183,18 +183,14 @@ button {
     height: 35px;
   }
   /* Trending Section */
+
   .trending__list p {
     font-size: 1.15rem;
   }
   .trending__discover {
-    top: 45%;
-    left: 45%;
-    height: 100px;
-    width: 100px;
+    display: none;
   }
-  .trending__discover p {
-    font-size: 1rem;
-  }
+
   .trending__list {
     gap: 14px;
     margin-top: 15px;
@@ -206,5 +202,74 @@ button {
   }
   .subscription p {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 800px) {
+  * {
+    outline: 1px solid red;
+  }
+  /* Header Section */
+  .header__logo h4 {
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+  .header__menu-mobile li img {
+    height: 32px;
+    width: 32px;
+  }
+  .header__logo-overlay,
+  .hero-image__overlay {
+    width: 20px;
+  }
+  /* Hero Section */
+  .hero-image {
+    flex: 0;
+  }
+  .hero-content {
+    flex: 1;
+    padding-left: 20px;
+  }
+  .hero-content__info h1 {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+  .hero-content__info p {
+    font-size: 1rem;
+  }
+  .hero-content__buttons {
+    margin-top: 10px;
+  }
+  .hero-content__order-button {
+    padding: 1.1rem 1.5rem;
+    font-size: 1rem;
+    text-wrap: nowrap;
+  }
+  .hero-content__play-button {
+    gap: 10px;
+    font-size: 1rem;
+    text-wrap: nowrap;
+  }
+  .hero-content__play-button img {
+    height: 45px;
+    width: 45px;
+  }
+  .hero-content__testimonial {
+    padding: 2rem 1rem;
+    gap: 10px;
+  }
+  .hero-content__customer h4 {
+    font-size: 2.25rem;
+  }
+
+  .hero-content__customer p {
+    font-size: 0.75rem;
+  }
+  .hero-content__review img {
+    height: 45px;
+    width: 45px;
+  }
+  .hero-content__review p {
+    font-size: 0.85rem;
   }
 }
