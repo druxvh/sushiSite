@@ -9,7 +9,7 @@
 }
 
 .subscription h2 {
-  font-size: 80px;
+  font-size: 4rem;
   line-height: 100px;
   color: #fff;
   text-align: center;
@@ -23,7 +23,7 @@
 .subscription-form {
   margin-top: 55px;
 
-  min-width: 500px;
+  min-width: 400px;
   display: flex;
 }
 .subscription-form input {

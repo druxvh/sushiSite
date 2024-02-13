@@ -8,6 +8,7 @@
   flex-direction: column;
   background-color: #fff;
   position: relative;
+  height: fit-content;
 }
 .about-us__image div {
   flex: 1;

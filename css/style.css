@@ -206,17 +206,17 @@ button {
 }
 
 @media (min-width: 425px) and (max-width: 800px) {
-  * {
+  /* * {
     outline: 1px solid red;
-  }
+  } */
   /* Header Section */
   .header__logo h4 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--primary-color);
   }
   .header__menu-mobile li img {
-    height: 32px;
-    width: 32px;
+    height: 35px;
+    width: 35px;
   }
   .header__logo-overlay,
   .hero-image__overlay {
@@ -228,20 +228,18 @@ button {
   }
   .hero-content {
     flex: 1;
-    padding-left: 20px;
+    margin-left: 20px;
   }
   .hero-content__info h1 {
-    font-size: 3rem;
-    line-height: 50px;
+    font-size: 3.5rem;
+    line-height: 60px;
   }
   .hero-content__info p {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
-  .hero-content__buttons {
-    margin-top: 10px;
-  }
+
   .hero-content__order-button {
-    padding: 1.1rem 1.5rem;
+    padding: 1.1rem 2.25rem;
     font-size: 1rem;
     text-wrap: nowrap;
   }
@@ -254,22 +252,100 @@ button {
     height: 45px;
     width: 45px;
   }
-  .hero-content__testimonial {
+  */ .hero-content__testimonial {
     padding: 2rem 1rem;
     gap: 10px;
   }
   .hero-content__customer h4 {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
   }
 
   .hero-content__customer p {
-    font-size: 0.75rem;
+    font-size: 0.725rem;
   }
   .hero-content__review img {
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
   }
   .hero-content__review p {
     font-size: 0.85rem;
+  }
+  /* About Us */
+
+  .about-us__image div {
+    padding: 50px 10px;
+  }
+
+  .about-us__image-1 img {
+    width: 160px;
+    height: 140px;
+  }
+  .about-us__image-2 img {
+    width: 160px;
+    height: 107px;
+  }
+  .about-us__button {
+    padding: 1rem;
+    gap: 6px;
+    font-size: 0.85rem;
+  }
+  .about-us__button img {
+    width: 10px;
+    height: 10px;
+  }
+  .about-us__content {
+    flex: 1.5;
+
+    gap: 25px;
+  }
+
+  .about-us__content p,
+  .about-us__content h3 {
+    margin: 0 1rem;
+  }
+  .sushi-subtitle {
+    font-size: 0.8rem;
+  }
+  .sushi-title {
+    font-size: 1.85rem;
+    line-height: 35px;
+  }
+  .sushi-description {
+    font-size: 1rem;
+  }
+  /* Menu Section */
+  .popular-foods__filter {
+    margin-top: 10px;
+    gap: 1rem;
+  }
+  .popular-foods__filter-btn {
+    gap: 10px;
+    padding: 0.7rem 1.25rem;
+    font-size: 0.9rem;
+  }
+  .popular-foods__filter-btn img {
+    width: 30px;
+    height: 30px;
+  }
+  /* Trending Section */
+  .trending-sushi {
+    flex-direction: column-reverse;
+    border: 2px solid rgba(197, 197, 197, 0.3);
+  }
+  .trending-drinks {
+    flex-direction: column;
+    border: 2px solid rgba(197, 197, 197, 0.3);
+  }
+  /* Subscription Section */
+  .subscription h2 {
+    font-size: 2.25rem;
+    line-height: 50px;
+  }
+  .subscription p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .subscription-form {
+    margin-top: 30px;
   }
 }
