@@ -30,6 +30,9 @@
 .footer__nav li {
   text-transform: uppercase;
 }
+.footer__nav li a:hover {
+  color: rgb(61, 60, 60);
+}
 
 .footer__social li {
   width: 40px;
@@ -37,6 +40,9 @@
   background-color: var(--secondary-color);
   border-radius: 100%;
   cursor: pointer;
+}
+.footer__social li:hover {
+  background-color: rgb(61, 60, 60);
 }
 
 .footer__social li img {

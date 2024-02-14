@@ -54,6 +54,9 @@
   object-fit: cover;
   margin-bottom: 6px;
 }
+.about-us__button:hover {
+  background-color: rgba(27, 27, 27, 0.868);
+}
 .about-us__content {
   flex: 1.2;
   display: flex;

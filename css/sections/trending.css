@@ -118,11 +118,14 @@
   align-items: center;
   background-color: #111;
   border-radius: 100%;
-  cursor: pointer;
-}
-
-.trending__discover p {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.trending__discover:hover {
+  background-color: #fff;
+  color: var(--secondary-color);
+  outline: 1px solid black;
 }

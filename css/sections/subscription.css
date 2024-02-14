@@ -49,3 +49,7 @@
   font-weight: 500;
   border-radius: 0 14px 14px 0;
 }
+.subscription-form button:hover {
+  background-color: #fff;
+  color: var(--secondary-color);
+}

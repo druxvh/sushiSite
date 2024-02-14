@@ -97,6 +97,15 @@ button {
   .trending__arrow {
     display: none;
   }
+  .trending__discover {
+    top: 44%;
+    left: 45%;
+    height: 110px;
+    width: 110px;
+  }
+  .trending__discover p {
+    font-size: 1rem;
+  }
   /* Footer Section */
   .footer {
     display: flex;

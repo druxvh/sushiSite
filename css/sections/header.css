@@ -21,7 +21,7 @@
 }
 
 .header__logo h4 {
-  flex: 1;
+  /* flex: 1; */
 
   display: flex;
   justify-content: start;
@@ -35,6 +35,7 @@
   opacity: 0.8;
   text-transform: uppercase;
   text-wrap: nowrap;
+  cursor: pointer;
 }
 .header__menu,
 .header__menu-mobile {

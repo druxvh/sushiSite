@@ -69,6 +69,9 @@
   height: 18px;
   width: 18px;
 }
+.popular-foods__explore-btn:hover {
+  padding: 1.25rem 2.25rem;
+}
 
 .popular-foods__catalogue {
   width: 100%;
