@@ -58,12 +58,10 @@
   background-color: var(--secondary-color);
   font-size: 1.15rem;
   cursor: pointer;
-  transition: background-color 0.5s ease-in;
 }
 
 .hero-content__order-button:hover {
-  background-color: #fff;
-  color: #111;
+  color: #dbd4d4;
 }
 .hero-content__play-button {
   border-radius: 30px;
