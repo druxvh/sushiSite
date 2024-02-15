@@ -16,6 +16,7 @@
 }
 .footer__logo span {
   color: var(--primary-color);
+  cursor: pointer;
 }
 
 .footer__nav,
@@ -30,8 +31,14 @@
 .footer__nav li {
   text-transform: uppercase;
 }
+.footer__nav li a {
+  transition: all 0.3s ease-in;
+  /* text-underline-offset: 10px; */
+}
 .footer__nav li a:hover {
-  color: rgb(61, 60, 60);
+  color: rgba(27, 27, 27, 0.868);
+  /* text-decoration: underline; */
+  /* list-style-type: disc; */
 }
 
 .footer__social li {
@@ -40,9 +47,11 @@
   background-color: var(--secondary-color);
   border-radius: 100%;
   cursor: pointer;
+  transition: all 0.5s ease-in;
 }
 .footer__social li:hover {
   background-color: rgb(61, 60, 60);
+  transform: translateY(-5px);
 }
 
 .footer__social li img {

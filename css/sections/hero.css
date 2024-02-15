@@ -53,17 +53,20 @@
   gap: 2rem;
 }
 .hero-content__order-button {
+  width: fit-content;
   padding: 1.1rem 1.5rem;
   border-radius: 30px;
   border: none;
   color: #fff;
   background-color: var(--secondary-color);
   font-size: 1.15rem;
-  cursor: pointer;
+  /* cursor: pointer; */
+  transition: background-color 0.5s ease-in;
 }
+
 .hero-content__order-button:hover {
   background-color: #fff;
-  color: var(--secondary-color);
+  color: #111;
 }
 .hero-content__play-button {
   border-radius: 30px;

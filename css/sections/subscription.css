@@ -48,8 +48,10 @@
   font-size: 1rem;
   font-weight: 500;
   border-radius: 0 14px 14px 0;
+  transition: all 0.5s ease-in;
 }
 .subscription-form button:hover {
-  background-color: #fff;
-  color: var(--secondary-color);
+  background-color: rgba(27, 27, 27, 0.868);
+
+  /* color: var(--secondary-color); */
 }
