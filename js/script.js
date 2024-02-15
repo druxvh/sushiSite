@@ -6,12 +6,18 @@ const mobileMenu = document.querySelector(".header__menu-mobile");
 const dropdown = document.querySelector(".header__menu-mobile-dropdown");
 const dropdownLinks = dropdown.querySelectorAll("a");
 const closeDropdownBtn = dropdown.querySelector("button");
+const searchBtn = document.querySelector("#search-icon");
+const searchForm = document.querySelector(".header__menu-search");
+const searchClose = document.querySelector(".close-search");
 
-console.log(mobileMenu);
-console.log(dropdown);
-console.log(dropdownLinks);
-console.log(closeDropdownBtn);
-
+searchBtn.addEventListener("click", () => {
+  searchForm.classList.remove("hide-search");
+  searchForm.classList.add("show-search");
+});
+searchClose.addEventListener("click", () => {
+  searchForm.classList.remove("show-search");
+  searchForm.classList.add("hide-search");
+});
 mobileMenu.addEventListener("click", () => {
   dropdown.classList.remove("hide-dropdown");
   dropdown.classList.add("show-dropdown");

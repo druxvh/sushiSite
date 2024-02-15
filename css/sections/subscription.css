@@ -2,9 +2,7 @@
   padding: 64px;
   display: flex;
   flex-direction: column;
-  /* gap: 35px; */
   overflow: hidden;
-
   background-color: var(--primary-color);
 }
 
@@ -22,7 +20,6 @@
 
 .subscription-form {
   margin-top: 55px;
-
   min-width: 400px;
   display: flex;
 }
@@ -51,7 +48,5 @@
   transition: all 0.5s ease-in;
 }
 .subscription-form button:hover {
-  background-color: rgba(27, 27, 27, 0.868);
-
-  /* color: var(--secondary-color); */
+  background-color: rgb(53, 48, 48);
 }

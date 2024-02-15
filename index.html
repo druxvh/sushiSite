@@ -23,12 +23,19 @@
           <li><a href="#food">food</a></li>
           <li><a href="#services">services</a></li>
           <li><a href="#about-us">about us</a></li>
-          <li><img src="assets/search.svg" alt="search" /></li>
+          <li id="search-icon"><img src="assets/search.svg" alt="search" /></li>
         </ul>
         <ul class="header__menu-mobile" data-aos="fade-down">
           <li><img src="assets/menu.svg" alt="Menu" /></li>
         </ul>
       </nav>
+      <div class="header__menu-search hide-search">
+        <div class="header__menu-search-form">
+          <input type="text" placeholder="Search" />
+          <button><img src="assets/arrow-right.svg" alt="arrow" /></button>
+        </div>
+        <button class="close-search">X</button>
+      </div>
       <div class="header__menu-mobile-dropdown hide-dropdown">
         <ul>
           <li><a href="#menu">menu</a></li>

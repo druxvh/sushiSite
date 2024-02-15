@@ -1,6 +1,5 @@
 .trending {
   position: relative;
-
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -18,8 +17,6 @@
   justify-content: center;
   flex-direction: column;
   gap: 16px;
-  /* margin: 0 1rem; */
-
   padding: 1rem;
 }
 .trending__list {
@@ -38,7 +35,6 @@
 }
 .trending__list p {
   font-size: 1.225rem;
-
   font-weight: 500;
   color: var(--secondary-color);
 }
@@ -46,7 +42,6 @@
 .trending__icon {
   width: 24px;
   height: 24px;
-
   background-color: var(--primary-color);
   border-radius: 100%;
 }
@@ -58,7 +53,6 @@
 }
 .trending__image {
   flex: 1;
-  /* padding: 2rem 4rem; */
   padding: 1rem;
   background-color: #fff;
   position: relative;
@@ -111,8 +105,6 @@
   z-index: 1;
   top: 44%;
   left: 45%;
-  /* margin-bottom: 44%;
-  margin-right: 45%; */
   height: 125px;
   width: 125px;
   display: flex;

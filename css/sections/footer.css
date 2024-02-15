@@ -1,6 +1,3 @@
-/* * {
-  outline: 1px solid red;
-} */
 .footer {
   display: flex;
   width: 100%;
@@ -33,12 +30,9 @@
 }
 .footer__nav li a {
   transition: all 0.3s ease-in;
-  /* text-underline-offset: 10px; */
 }
 .footer__nav li a:hover {
-  color: rgba(27, 27, 27, 0.868);
-  /* text-decoration: underline; */
-  /* list-style-type: disc; */
+  color: rgb(53, 48, 48);
 }
 
 .footer__social li {
@@ -47,7 +41,7 @@
   background-color: var(--secondary-color);
   border-radius: 100%;
   cursor: pointer;
-  transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
 }
 .footer__social li:hover {
   background-color: rgb(61, 60, 60);
